@@ -401,7 +401,7 @@ class PyNSO:
             self.log.error(f"Difference removed:::removed:::\n{_removed}\nDifference removed:::added:::{_added}")
             raise Exception("Added and ExpectAdded don't match")
 
-        print('success')
+        self.log.ingf('Compare and expect -> success')
 
     def compare_configs(self, f1, f2):
         """
