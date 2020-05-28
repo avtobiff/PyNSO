@@ -1,8 +1,9 @@
 """
 @author: Majdoub khalid
-This is an nso A-Z test automation framework
-It will make creating a CI-CD for your NSO services just a piece of cake
-All in one python library
+I know you are tired of all these 10 thousands test frameworks that take like forever to put in work.
+This is an nso A-Z test automation framework.
+It will make creating a CI-CD for your NSO services just a piece of cake.
+All in one python class !!
 """
 import subprocess
 import ncs
